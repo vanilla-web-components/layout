@@ -1,6 +1,6 @@
 {
   "name": "@vanilla-web-components/layout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Layouts in vanilla web component",
   "main": "dist/index.js",
   "files": [
@@ -14,9 +14,15 @@
     "type": "git",
     "url": "git+https://github.com/vanilla-web-components/layout.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "web component",
+    "html",
+    "component",
+    "react",
+    "solidjs"
+  ],
+  "author": "Anubhav Saini <iamanubhavsaini+git@gmail.com>",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/vanilla-web-components/layout/issues"
