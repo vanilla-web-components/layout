@@ -31,6 +31,9 @@ class Linear extends HTMLElement {
                 flex-direction: ${this.direction === "horizontal" ? "row" : "column"};
                 gap: ${gap};
                 margin: ${margin_tb} ${margin_rl};
+                flex-wrap: nowrap;
+                ${this.direction === "horizontal" ? "overflow-x" : "overflow-y"}: auto;
+                ${this.direction === "horizontal" ? "overflow-y" : "overflow-x"}: hidden;
             }
         </style>
         <slot class="linear ${classes}"></slot>
