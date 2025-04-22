@@ -1,0 +1,31 @@
+{
+  "name": "@vanilla-web-components/layout",
+  "version": "0.0.1",
+  "description": "Layouts in vanilla web component",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanilla-web-components/layout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vanilla-web-components/layout/issues"
+  },
+  "homepage": "https://github.com/vanilla-web-components/layout#readme",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.7",
+    "@types/node": "^22.14.1",
+    "jasmine": "^5.6.0",
+    "typescript": "^5.8.3"
+  }
+}
